@@ -1,0 +1,29 @@
+{
+  "name": "reactxp-shadow",
+  "version": "0.0.1",
+  "description": "Plugin for ReactXP that provides support for Shadow for Web, iOS and Android",
+  "repository": "github:Luxbyte/reactxp-shadow",
+  "main": "./dist/index.js",
+  "keywords": [
+    "react",
+    "reactxp",
+    "react-native",
+    "react-native-svg"
+  ],
+  "author": "Luxbyte <contact@luxbyte.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react-native": ">=0.50.0",
+    "prop-types": "15.7.2"
+  },
+  "peerDependencies": {
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "reactxp": "2.0.0",
+    "react-native-svg": "9.13.3" 
+  },
+  "devDependencies": {
+    "chokidar": "3.3.0",
+    "fs-extra": "8.1.0"
+  }
+}
