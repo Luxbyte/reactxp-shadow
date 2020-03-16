@@ -1,6 +1,6 @@
-let React, RX ;
+let React, RX;
 React = RX = require('reactxp');
-import {Shadow} from 'reactxp-shadow'
+import { Shadow } from 'reactxp-shadow';
 
 const App = () => (
   <Shadow style={{
