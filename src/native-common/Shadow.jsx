@@ -121,7 +121,7 @@ class BoxShadow extends React.Component {
   }
 }
 
-export class Shadow extends React.Component {
+class Shadow extends React.Component {
   render() {
     const {
       style, children,
@@ -193,4 +193,4 @@ export class Shadow extends React.Component {
   }
 }
 
-export default Shadow
+module.exports = Shadow;

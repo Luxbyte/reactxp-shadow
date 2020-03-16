@@ -1,6 +1,6 @@
 let React, RX ;
 React = RX = require('reactxp');
-import Shadow from 'reactxp-shadow'
+import {Shadow} from 'reactxp-shadow'
 
 const App = () => (
   <Shadow style={{
@@ -17,7 +17,7 @@ const App = () => (
     shadowOpacity: 0.3,
     shadowRadius: 4
   }}>
-    <Text>Hello World!</Text>
+    <RX.Text>Hello World!</RX.Text>
   </Shadow>
 )
 
